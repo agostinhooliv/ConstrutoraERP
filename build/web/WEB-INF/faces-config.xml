@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!-- =========== FULL CONFIGURATION FILE ================================== -->
+
+<faces-config version="1.2" 
+    xmlns="http://java.sun.com/xml/ns/javaee" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd">
+    <managed-bean>
+        <managed-bean-name>LoginBean</managed-bean-name>
+        <managed-bean-class>br.com.construtora.bean.LoginBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <navigation-rule>
+        <from-view-id>/login.jsp</from-view-id>
+        <navigation-case>
+            <from-outcome>logado</from-outcome>
+            <to-view-id>/principal.jsp</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    <navigation-rule>
+        <from-view-id>/principal.jsp</from-view-id>
+        <navigation-case>
+            <from-outcome>logoff</from-outcome>
+            <to-view-id>/login.jsp</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    <managed-bean>
+        <managed-bean-name>MenuBean</managed-bean-name>
+        <managed-bean-class>br.com.construtora.bean.MenuBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>ClientesBean</managed-bean-name>
+        <managed-bean-class>br.com.construtora.bean.ClientesBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>EnderecosBean</managed-bean-name>
+        <managed-bean-class>br.com.construtora.bean.EnderecosBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>PessoaBean</managed-bean-name>
+        <managed-bean-class>br.com.construtora.bean.PessoaBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>MensagensBean</managed-bean-name>
+        <managed-bean-class>br.com.construtora.bean.MensagensBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>ObrasBean</managed-bean-name>
+        <managed-bean-class>br.com.construtora.bean.ObrasBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>FuncionariosBean</managed-bean-name>
+        <managed-bean-class>br.com.construtora.bean.FuncionariosBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>FornecedoresBean</managed-bean-name>
+        <managed-bean-class>br.com.construtora.bean.FornecedoresBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>DespesasBean</managed-bean-name>
+        <managed-bean-class>br.com.construtora.bean.financeiro.DespesasBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+</faces-config>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

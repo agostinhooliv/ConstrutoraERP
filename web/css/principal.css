@@ -1,0 +1,50 @@
+/* 
+    Document   : login
+    Created on : 12/05/2011, 12:51:53
+    Author     : agostinho
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.principal{
+    height: 1024px;
+    width: 840px;
+    margin-top: 300px;
+}
+
+.topo{
+    background-color: #F3F2F2;
+    width: 1024px;
+    height: 100px;
+}
+
+.bottom{
+    background-color: #F3F2F2;
+    width: 1024px;
+    height: 100px;
+}
+
+.painelLogin{
+    height: 150px;
+    width: 300px;
+    margin-left: 400px;
+}
+
+.labelDefault{
+    color: #163D95;
+    font-family: 'Courier New','Courier',monospace;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.labelTitulo{
+    color: #163D95;
+    font-family: 'Courier New','Courier',monospace;
+    font-size: 20px;
+    font-weight: bold;
+}

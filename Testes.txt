@@ -1,0 +1,96 @@
+  Endereco end = new Endereco();
+        end.setCdCep(58074056);
+        end.setNmBairr("Bessa");
+        end.setNmLogr("Rua. Das dores");
+        end.setIdEndereco(15);
+
+        for (Obra o : new ObraDAO().findAll()) {
+            System.out.println(o.getDeObra());
+        }
+
+
+
+
+        // end.setIdEndereco(c.getEnderecoIdEndereco().getIdEndereco());
+        //new EnderecoDAO().salvar(end);
+        //new EnderecoDAO().atualizar(end);
+
+        /* Cliente c = new Cliente();
+        c.setNmPess("Agostinho");
+        c.setDtCada(new Date());
+        c.setRg("2250847");
+        c.setDeOrgRg("SSP-PB");
+        c.setCpf("00957552419");
+        c.setDtNasc(new Date());
+        c.setEnderecoIdEndereco(end);
+        c.setIdPessoa(c.getIdPessoa());
+        c.setFone1(99164542);
+        //  new ClienteDAO().salvar(c);
+        // new ClienteDAO().atualizar(c);
+        // new ClienteDAO().apagar(c);
+
+        for (Cliente c2 : new ClienteDAO().findAll()) {
+        System.out.println("Id: " + c2.getIdPessoa() + "\t" + c2.getNmPess() + "\t" + c2.getCpf() + "\t" + c2.getFone1() +
+        "\t" + c2.getEnderecoIdEndereco().getIdEndereco() + "\t" + c2.getEnderecoIdEndereco().getCdCep() + "\t" + c2.getEnderecoIdEndereco().getNmBairr());
+        }*/
+
+
+        /*
+        // Funcionario c = new FuncionarioDAO().findByCPF("00000000000");
+        Funcionario f = new Funcionario();
+        f.setEnderecoIdEndereco(end);
+        f.setIdPessoa(c.getIdPessoa());
+        f.setNmPess("Agostinho Tomaz Oliveira Neto");
+        f.setIdTpPess('F');
+        f.setRg("2250847");
+        f.setDtVincEmpr(new Date());
+        f.setIdSexo('M');
+        f.setNrCartTrab(111111);
+        f.setNrPis(22222);
+        f.setNrTituElei("333333");
+        f.setDeCargo("1");
+        f.setDeSetor("1");
+        f.setDeOrgRg("SSP/PB");
+        f.setCpf("00957552416");
+        f.setDtNasc(new Date());
+        f.setDtCada(new Date());
+        //  new FuncionarioDAO().salvar(f);
+        new FuncionarioDAO().atualizar(f);
+
+        for (Funcionario f2 : new FuncionarioDAO().findAll()) {
+        System.out.println("Id: " + f2.getIdPessoa() + "\t" + f2.getNmPess() + "\t" + f2.getCpf() + "\t" + f2.getFone1() +
+        "\t" + f2.getEnderecoIdEndereco().getIdEndereco() + "\t" + f2.getEnderecoIdEndereco().getCdCep() + "\t" + f2.getEnderecoIdEndereco().getNmBairr());
+        }*/
+
+        //Obra o = new Obra();
+        //o.setEnderecoIdEndereco(end);
+        //o.setIdObra(1);
+        //o.setDeObra("MILOS III");
+        //new ObraDAO().salvar(o);
+        //new ObraDAO().atualizar(o);
+
+        /*
+        for (Obra o2 : new ObraDAO().findAll()) {
+        System.out.println(o2.getIdObra() + "\t" + o2.getDeObra() + "\t" + o2.getEnderecoIdEndereco().getIdEndereco() + "\t" + o2.getEnderecoIdEndereco().getNmBairr());
+        }
+        System.out.println(new ObraDAO().findByDeObra("MILOS I").getEnderecoIdEndereco().getNmBairr() + "\t" + new ObraDAO().findByDeObra("MILOS I").getDeObra());
+         */
+
+        /*   CustosObra co = new CustosObra();
+        co.setObra(new ObraDAO().findByDeObra("MILOS I"));
+        co.setTipoMaterial(TipoMaterialEnum.Brita);
+        co.setDeCust("Brita Boa");
+        co.setQtUnit(1);
+        co.setDtCusto(new Date());
+        co.setVrUnit(new BigDecimal(860.00));
+        co.setVrTota(new BigDecimal(co.getQtUnit() * co.getVrUnit().doubleValue()));
+        //co.setIdCustosObra(new CustosObraDAO().findByTp_Dt_VrTota(TipoMaterialEnum.Brita, new Date(), new BigDecimal(860.0000)).getIdCustosObra());
+        // new CustosObraDAO().salvar(co);
+        //new CustosObraDAO().atualizar(co);
+        //new CustosObraDAO().apagar(co);
+
+
+
+        for (CustosObra co2 : new CustosObraDAO().findAll()) {
+        System.out.println(co2.getTipoMaterial() + "\t" + co2.getDeCust() + "\t" + co2.getVrTota());
+        }*/

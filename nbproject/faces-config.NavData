@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Project" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="paginas/obras/remocao.jsp" x="1150" y="600" zoom="true"/>
+        <Node id="paginas/funcionarios/templateFuncionarios.jsp" x="1400" y="150" zoom="true"/>
+        <Node id="paginas/despesas/geral/principal.jsp" x="2150" y="150" zoom="true"/>
+        <Node id="paginas/clientes/remocao.jsp" x="1900" y="150" zoom="true"/>
+        <Node id="paginas/fornecedores/cadastro.jsp" x="150" y="1050" zoom="true"/>
+        <Node id="menu.jsp" x="900" y="150" zoom="true"/>
+        <Node id="paginas/obras/alteracao.jsp" x="650" y="300" zoom="true"/>
+        <Node id="paginas/clientes/templateClientes.jsp" x="1150" y="300" zoom="true"/>
+        <Node id="paginas/despesas/geral/importacao.jsp" x="650" y="900" zoom="true"/>
+        <Node id="welcomeJSF.jsp" x="150" y="300" zoom="true"/>
+        <Node id="paginas/clientes/lista.jsp" x="1400" y="450" zoom="true"/>
+        <Node id="paginas/obras/lista.jsp" x="400" y="1050" zoom="true"/>
+        <Node id="paginas/despesas/geral/cadastro.jsp" x="900" y="450" zoom="true"/>
+        <Node id="paginas/obras/principal.jsp" x="1150" y="450" zoom="true"/>
+        <Node id="paginas/fornecedores/lista.jsp" x="650" y="450" zoom="true"/>
+        <Node id="principal.jsp" x="1150" y="150" zoom="true"/>
+        <Node id="paginas/despesas/geral/remocao.jsp" x="1650" y="150" zoom="true"/>
+        <Node id="paginas/despesas/geral/alteracao.jsp" x="900" y="600" zoom="true"/>
+        <Node id="paginas/obras/cadastro.jsp" x="1400" y="300" zoom="true"/>
+        <Node id="forwardToJSF.jsp" x="400" y="450" zoom="true"/>
+        <Node id="paginas/fornecedores/principal.jsp" x="400" y="900" zoom="true"/>
+        <Node id="paginas/clientes/mensagens.jsp" x="150" y="150" zoom="true"/>
+        <Node id="paginas/clientes/alteracao.jsp" x="400" y="150" zoom="true"/>
+        <Node id="paginas/funcionarios/alteracao.jsp" x="150" y="450" zoom="true"/>
+        <Node id="paginas/funcionarios/mensagens.jsp" x="400" y="600" zoom="true"/>
+        <Node id="paginas/enderecos.jsp" x="400" y="750" zoom="true"/>
+        <Node id="paginas/fornecedores/templateFornecedores.jsp" x="900" y="750" zoom="true"/>
+        <Node id="paginas/clientes/principal.jsp" x="150" y="1200" zoom="true"/>
+        <Node id="paginas/funcionarios/principal.jsp" x="150" y="900" zoom="true"/>
+        <Node id="paginas/fornecedores/remocao.jsp" x="650" y="600" zoom="true"/>
+        <Node id="paginas/obras/mensagens.jsp" x="1650" y="450" zoom="true"/>
+        <Node id="login.jsp" x="150" y="750" zoom="true"/>
+        <Node id="paginas/fornecedores/alteracao.jsp" x="1900" y="300" zoom="true"/>
+        <Node id="paginas/funcionarios/remocao.jsp" x="1650" y="300" zoom="true"/>
+        <Node id="branco.jsp" x="900" y="300" zoom="true"/>
+        <Node id="paginas/fornecedores/mensagens.jsp" x="650" y="750" zoom="true"/>
+        <Node id="paginas/funcionarios/lista.jsp" x="400" y="300" zoom="true"/>
+        <Node id="paginas/clientes/cadastro.jsp" x="650" y="150" zoom="true"/>
+        <Node id="paginas/funcionarios/cadastro.jsp" x="150" y="600" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>
